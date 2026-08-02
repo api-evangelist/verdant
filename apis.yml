@@ -1,7 +1,28 @@
 aid: verdant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verdant.png
 name: Verdant
-description: Verdant is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Verdant is an AI-native land-use permitting and planning software platform for local
+  governments, spanning the entire process from a resident's first question through plan
+  review to a commission's final vote. Applicants file complete, compliant applications
+  upfront, and Verdant's AI reads documents, site plans, and diagrams to flag issues and
+  draft staff review reports that municipal staff can approve. The platform is modular,
+  letting jurisdictions buy only the modules they need, configured to their ordinances,
+  workflows, and forms, and includes ordinance-research tooling to benchmark against peer
+  jurisdictions and find gaps in local codes. Verdant is a Y Combinator Summer 2026
+  company; it currently ships an application product for cities and does not publish a
+  public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/verdant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- GovTech
+- Permitting
+- Local Government
+- Land Use Planning
+- Artificial Intelligence
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/verdant-domain-security.yml
+- type: Website
+  url: https://www.verdantapp.com/
+- type: Support
+  url: https://www.verdantapp.com/support
+- type: ChangeLog
+  url: https://www.verdantapp.com/changelog
+- type: ChangeLog
+  name: Verdant changelog (structured)
+  url: changelog/verdant-changelog.yml
+- type: StatusPage
+  url: https://stats.uptimerobot.com/UCLf7IUZ6q
+- type: TermsOfService
+  url: https://www.verdantapp.com/terms
+- type: PrivacyPolicy
+  url: https://www.verdantapp.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

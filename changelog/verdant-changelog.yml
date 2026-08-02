@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.verdantapp.com/changelog
+scheme: semver
+current_version: v0.1
+notes: >-
+  Verdant publishes a public product changelog at verdantapp.com/changelog. As of this
+  capture the product is at an early marketing/launch stage with a single dated entry; no
+  public developer API is documented.
+entries:
+- version: v0.1
+  date: '2026-07-03'
+  breaking: false
+  highlights:
+  - Launched the Verdant marketing website with a platform overview, jurisdiction detail,
+    and team information.
+  - Added a demo booking form for prospective local-government customers.
